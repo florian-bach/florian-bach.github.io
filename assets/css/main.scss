@@ -37,3 +37,18 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+/* Custom dark palette */
+html[data-theme="dark"] {
+  --global-bg-color                 : #111b1d;
+  --global-footer-bg-color          : #182528;
+  --global-text-color               : #dde6e6;
+  --global-masthead-link-color      : #dde6e6;
+  --global-base-color               : #6cc4c9;
+  --global-link-color               : #6cc4c9;
+  --global-link-color-hover         : #9ad8db;
+  --global-link-color-visited       : #8fb9bb;
+  --global-masthead-link-color-hover: #6cc4c9;
+  --global-border-color             : #2a3b3e;
+  --global-dark-border-color        : #2a3b3e;
+  --global-thead-color              : #213033;
+}
