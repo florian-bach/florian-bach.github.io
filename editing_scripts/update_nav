@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+# Trim header tabs, add ELIA link, add CV PDF, then commit and push.
+# Run from anywhere inside the florian-bach.github.io clone.
+set -euo pipefail
+
+# ---- Fill these in ----------------------------------------------------------
+CV_PDF=""         # local path to your CV, e.g. "$HOME/Documents/Bach_CV.pdf"
+ELIA_URL="https://iti.stanford.edu/chsi/elia.html"       # e.g. "https://elia-consortium.org"
+
+# Tabs to keep: 1 = keep, 0 = remove (also deletes the template's sample entries)
+KEEP_PUBLICATIONS=1
+KEEP_TALKS=0
+KEEP_TEACHING=0
+KEEP_PORTFOLIO=0
+KEEP_BLOG=0
+# -----------------------------------------------------------------------------
+
+cd "$(git rev-parse --show-toplevel)"
+
+# --- CV ---
+if [[ -n "$CV_PDF" ]]; then
+  mkdir -p files
+  cp "$CV_PDF" files/cv.pdf
+  # Remove the template's placeholder CV pages so /cv/ doesn't show dummy content
+  rm -f _pages/cv.md _pages/cv-json.md
+fi
+
+# --- Remove sample content for dropped sections ---
+[[ $KEEP_TALKS     == 0 ]] && rm -rf _talks
+[[ $KEEP_TEACHING  == 0 ]] && rm -rf _teaching
+[[ $KEEP_PORTFOLIO == 0 ]] && rm -rf _portfolio
+[[ $KEEP_BLOG      == 0 ]] && rm -rf _posts
+[[ $KEEP_PUBLICATIONS == 0 ]] && rm -rf _publications
+
+# --- Rebuild header navigation ---
+{
+  echo "main:"
+  [[ $KEEP_PUBLICATIONS == 1 ]] && printf '  - title: "Publications"\n    url: /publications/\n\n'
+  [[ $KEEP_TALKS        == 1 ]] && printf '  - title: "Talks"\n    url: /talks/\n\n'
+  [[ $KEEP_TEACHING     == 1 ]] && printf '  - title: "Teaching"\n    url: /teaching/\n\n'
+  [[ $KEEP_PORTFOLIO    == 1 ]] && printf '  - title: "Portfolio"\n    url: /portfolio/\n\n'
+  [[ $KEEP_BLOG         == 1 ]] && printf '  - title: "Blog"\n    url: /year-archive/\n\n'
+  [[ -n "$ELIA_URL" ]]          && printf '  - title: "ELIA"\n    url: %s\n\n' "$ELIA_URL"
+  [[ -n "$CV_PDF" ]]            && printf '  - title: "CV"\n    url: /files/cv.pdf\n'
+  true
+} > _data/navigation.yml
+
+# --- Link ELIA in the About page (only if not already linked) ---
+if [[ -n "$ELIA_URL" && -f _pages/about.md ]]; then
+  ELIA_URL="$ELIA_URL" perl -i -pe \
+    's/(?<!\[)(Early Life Immunology in Africa \(ELIA\))/[$1]($ENV{ELIA_URL})/' \
+    _pages/about.md
+fi
+
+echo "--- _data/navigation.yml ---"; cat _data/navigation.yml
+git add -A
+git status --short
+git diff --cached --quiet || git commit -m "Trim navigation, add ELIA link and CV"
+git push
