@@ -23,7 +23,7 @@ repository               : "florian-bach/florian-bach.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.jpeg"
   name             : "Florian Bach"
   pronouns         : 
   bio              : "Postdoctoral Scholar, Stanford University School of Medicine"
