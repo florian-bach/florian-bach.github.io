@@ -4,7 +4,7 @@
 set -euo pipefail
 
 # ---- Fill these in ----------------------------------------------------------
-CV_PDF=""         # local path to your CV, e.g. "$HOME/Documents/Bach_CV.pdf"
+CV_PDF="$HOME/Downloads/faculty_search_CV-2.pdf"         # local path to your CV, e.g. "$HOME/Documents/Bach_CV.pdf"
 ELIA_URL="https://iti.stanford.edu/chsi/elia.html"       # e.g. "https://elia-consortium.org"
 
 # Tabs to keep: 1 = keep, 0 = remove (also deletes the template's sample entries)
