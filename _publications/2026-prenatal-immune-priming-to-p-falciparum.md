@@ -1,0 +1,15 @@
+---
+generated-by: build_publications
+title: "Prenatal immune priming to <i>P. falciparum</i> is characterized by multi-lineage T cell responses that are influenced by maternal microchimerism and predict malaria outcomes"
+collection: publications
+category: preprints
+permalink: /publication/2026-prenatal-immune-priming-to-p-falciparum
+excerpt: "In malaria endemic settings, the fetus may be exposed to Plasmodium falciparum (Pf) antigens leading to prenatal immune primming (PIP). The fetus also acquires a graft of maternal cells in utero, a phenomenon known as maternal microchimerism (MMc). We have previously identified that MMc at birth predicts altered…"
+date: 2026-12-28
+venue: "bioRxiv"
+paperurl: "https://doi.org/10.64898/2026.10.13.759013"
+citation: "Jiang Y†, <b>Bach FA</b>†, Houck J, Carlson M, Mahamar A, Santara G, Attaher O, …, Harrington WE (2026). Prenatal immune priming to <i>P. falciparum</i> is characterized by multi-lineage T cell responses that are influenced by maternal microchimerism and predict malaria outcomes. <i>bioRxiv</i>."
+---
+**Abstract.** In malaria endemic settings, the fetus may be exposed to Plasmodium falciparum (Pf) antigens leading to prenatal immune primming (PIP). The fetus also acquires a graft of maternal cells in utero, a phenomenon known as maternal microchimerism (MMc). We have previously identified that MMc at birth predicts altered malaria susceptibility in early childhood, and we hypothesized that this association may be mediated via two potential mechanisms. First, the fetus may acquire Pf-specific MMc T-cells that directly respond to postnatal parasitemia. Alternatively, MMc may indirectly influence the quantity or quality of PIP. To investigate this hypothesis, infant cord bloods from 97 Malian primigravidae were screened for MMc using qPCR. A subset of ten cord blood mononuclear cells with variable MMc levels were stimulated with purified Pf merozoite extract and activated T-cells were sorted by flow cytometry for scRNAseq analysis. Transcriptional profile was used to differentiate Pf-responsive versus bystander activated T-cells, and MMc cells were identified using the Cellector algorithm. Among Pf-responsive cells, we identified four key populations: activated CD4 T-cells, ZBTB16+ CD4 T-cells, activated Vδ1+ γδ T-cells, and cytotoxic Vγ9Vδ2+ γδ T-cells. The minority of sorted cells were of MMc origin; however, there was a strong association between the presence of MMc and the quantity and quality of PIP. MMc+ infants had significantly fewer Pf-responsive T-cells, as well as a shifted distribution of these cells with fewer ZBTB16+ CD4 and cytotoxic Vγ9Vδ2+ γδ T-cells. Clinically, MMc was protective from incident parasitemia and febrile malaria, whereas the frequencies of ZBTB16+ CD4 and activated CD4 T-cells were associated with increased risk. Together, these data demonstrate that MMc influences malaria outcomes through regulation of offspring inflammatory responses to Pf.
+
+[Read the paper](https://doi.org/10.64898/2026.10.13.759013)

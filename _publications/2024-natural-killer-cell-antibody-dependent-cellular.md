@@ -1,0 +1,15 @@
+---
+generated-by: build_publications
+title: "Natural killer cell antibody-dependent cellular cytotoxicity to <i>Plasmodium falciparum</i> is impacted by cellular phenotypes, erythrocyte polymorphisms, parasite diversity and intensity of transmission"
+collection: publications
+category: manuscripts
+permalink: /publication/2024-natural-killer-cell-antibody-dependent-cellular
+excerpt: "ObjectivesNatural killer (NK) cells make important contributions to anti-malarial immunity through antibody-dependent cellular cytotoxicity (ADCC), but the role of different components of this pathway in promoting NK cell activation remains unclear.MethodsWe compared the functions and phenotypes of NK cells from…"
+date: 2024-12-28
+venue: "Clinical & Translational Immunology 13(11):e70005"
+paperurl: "https://doi.org/10.1002/cti2.70005"
+citation: "Tukwasibwe S, Lewis SN, Taremwa Y, van der Ploeg K, Press KD, Ty M, Namirimu Nankya F, …, <b>Bach FA</b>, …, Jagannathan P (2024). Natural killer cell antibody-dependent cellular cytotoxicity to <i>Plasmodium falciparum</i> is impacted by cellular phenotypes, erythrocyte polymorphisms, parasite diversity and intensity of transmission. <i>Clinical & Translational Immunology 13(11):e70005</i>."
+---
+**Abstract.** <h4>Objectives</h4>Natural killer (NK) cells make important contributions to anti-malarial immunity through antibody-dependent cellular cytotoxicity (ADCC), but the role of different components of this pathway in promoting NK cell activation remains unclear.<h4>Methods</h4>We compared the functions and phenotypes of NK cells from malaria-exposed and malaria-naive donors, and then varied the erythrocyte genetic background, <i>Plasmodium falciparum</i> strain and opsonising plasma used in ADCC to observe their impacts on NK cell degranulation as measured by CD107a mobilisation.<h4>Results</h4>Natural killer cells from malaria-exposed adult Ugandan donors had enhanced ADCC, but an impaired pro-inflammatory response to cytokine stimulation, compared to NK cells obtained from malaria-naive adult North American donors. Cellular phenotypes from malaria-exposed donors reflected this specialisation for ADCC, with a compartment-wide downregulation of the Fc receptor γ-chain and enrichment of highly differentiated CD56<sup>dim</sup> and CD56<sup>neg</sup> populations. NK cell degranulation was enhanced in response to opsonised <i>P. falciparum</i> schizonts cultured in sickle cell heterozygous erythrocytes relative to wild-type erythrocytes, and when using opsonising plasma collected from donors living in a high transmission area compared to a lower transmission area despite similar levels of 3D7 schizont-specific IgG levels. However, degranulation was lowered in response to opsonised field isolate <i>P. falciparum</i> schizonts isolated from clinical malaria infections, compared to the 3D7 laboratory strain typically used in these assays.<h4>Conclusion</h4>This work highlights important host and parasite factors that contribute to ADCC efficacy that should be considered in the design of ADCC assays.
+
+[Read the paper](https://doi.org/10.1002/cti2.70005)

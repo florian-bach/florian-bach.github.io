@@ -52,3 +52,12 @@ html[data-theme="dark"] {
   --global-dark-border-color        : #26364f;
   --global-thead-color              : #1c2b44;
 }
+
+
+/* Publication figures */
+.pub-thumb { float: right; width: 180px; max-width: 35%; margin: 0 0 .5em 1em;
+             border-radius: 4px; background: #fff; padding: 4px; }
+.archive__item::after { content: ""; display: block; clear: both; }
+.pub-figure { margin: 0 0 1.5em; }
+.pub-figure img { width: 100%; background: #fff; padding: 6px; border-radius: 4px; }
+.pub-figure figcaption { font-size: .8em; color: var(--global-text-color-light); }

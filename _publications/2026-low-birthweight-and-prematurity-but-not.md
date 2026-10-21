@@ -1,0 +1,15 @@
+---
+generated-by: build_publications
+title: "Low birthweight and prematurity, but not malaria chemoprevention, are associated with reduced pneumococcal vaccine immunogenicity in Ugandan infants"
+collection: publications
+category: manuscripts
+permalink: /publication/2026-low-birthweight-and-prematurity-but-not
+excerpt: "BackgroundMalaria exposure has been hypothesized to alter immune responses to childhood vaccines, but evidence is inconsistent. We evaluated whether early-life malaria exposure and perennial malaria chemoprevention (PMC) modify antibody responses to the 10-valent pneumococcal conjugate vaccine (PCV-10) among infants…"
+date: 2026-12-25
+venue: "Journal of Infectious Diseases"
+paperurl: "https://doi.org/10.1093/infdis/jiag488"
+citation: "Musinguzi K, Sbarra AN, <b>Bach FA</b>, Nankya F, Achom KB, Mwubaha C, Nayebare P, …, Jagannathan P (2026). Low birthweight and prematurity, but not malaria chemoprevention, are associated with reduced pneumococcal vaccine immunogenicity in Ugandan infants. <i>Journal of Infectious Diseases</i>."
+---
+**Abstract.** <h4>Background</h4>Malaria exposure has been hypothesized to alter immune responses to childhood vaccines, but evidence is inconsistent. We evaluated whether early-life malaria exposure and perennial malaria chemoprevention (PMC) modify antibody responses to the 10-valent pneumococcal conjugate vaccine (PCV-10) among infants in a high malaria transmission setting in eastern Uganda.<h4>Methods</h4>This study was nested within the MIC-DroP trial (NCT04978272) whereby 202 infants were selected for inclusion. Serotype-specific IgG concentrations were measured using an in-house multiplex seroassay from samples obtained at 8 and 24 weeks of age. Immunogenicity was quantified as the log10 fold-change in IgG concentration between the 8 and 24-week timepoints, and seroconversion as ≥0.35 μg/mL at week 24 (i.e., seropositive). Generalized estimating equation models were used to assess associations of PCV-10 immunogenicity and seroconversion with malaria exposure, malaria chemoprevention and birth outcomes.<h4>Results</h4>Among the 195 of 202 infants who completed the three-dose PCV-10 series, neither infant PMC nor malaria exposure from study enrollment to 14 weeks were associated with PCV-10 immunogenicity or seroconversion. In contrast, low birthweight (<2500g) was associated with lower immunogenicity (82% lower [95% confidence interval (CI): 43-94%] antibody fold-change, p=0.003) and reduced odds of seroconversion (OR=0.19 [95% CI: 0.06-0.57], p=0.003); preterm birth (<37 weeks) showed similar associations (79% lower [95% CI: 24-94%] antibody fold-change, p=0.018; OR=0.181 [95% CI: 0.05-0.65], p=0.009).<h4>Conclusion</h4>In this malaria-endemic setting, early-life malaria exposure and chemoprevention did not measurably alter PCV-10 antibody responses. However, low birthweight and prematurity were associated with reduced vaccine immunogenicity.
+
+[Read the paper](https://doi.org/10.1093/infdis/jiag488)
