@@ -46,7 +46,7 @@
 .pub-figure img { width: 100%; background: #fff; padding: 6px; border-radius: 4px; }
 .pub-figure figcaption { font-size: .8em; color: var(--global-text-color-light); }
 
-/* >>> gradient background (Diagonal) */
+/* >>> gradient background (Dusk) */
 html:not([data-theme="dark"]), html[data-theme="dark"] {
   --global-bg-color                 : #241d2b;
   --global-footer-bg-color          : rgba(0, 0, 0, .22);
@@ -62,8 +62,8 @@ html:not([data-theme="dark"]), html[data-theme="dark"] {
   --global-dark-border-color        : rgba(255, 255, 255, .28);
   --global-thead-color              : rgba(255, 255, 255, .06);
 }
-html:not([data-theme="dark"]) { --bg-gradient: linear-gradient(135deg in oklch, #9B0037 0%, #1F4E5A 100%); }
-html[data-theme="dark"]       { --bg-gradient: linear-gradient(135deg in oklch, #4f001c 0%, #10282f 100%); }
+html:not([data-theme="dark"]) { --bg-gradient: linear-gradient(175deg in oklch, #1F4E5A 0%, #3b2e55 55%, #9B0037 100%); }
+html[data-theme="dark"]       { --bg-gradient: linear-gradient(175deg in oklch, #0f272d 0%, #1d1730 55%, #4f001c 100%); }
 html {
   min-height: 100%;
   background-color: #2a2233;
